@@ -1,3 +1,4 @@
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -103,9 +104,10 @@ header > :first-child > :nth-child(2){
 	flex-direction: column;
 	gap: 16px;
 }
+
 .HRB-button:hover{
 	cursor: pointer;
-	filter: invert(100%) sepia(11%) saturate(125%) hue-rotate(315deg) brightness(118%) contrast(100%);
+	filter: invert(16%) sepia(80%) saturate(7294%) hue-rotate(359deg) brightness(98%) contrast(116%);
 	transition: 1s;
 	transform: scale(1.5);
 }
@@ -131,7 +133,7 @@ header > :first-child > :nth-child(2){
 }
 #header-left:hover{
 	cursor: pointer;
-	filter: invert(100%) sepia(11%) saturate(125%) hue-rotate(315deg) brightness(118%) contrast(100%);
+	filter: invert(16%) sepia(80%) saturate(7294%) hue-rotate(359deg) brightness(98%) contrast(116%);
 	transition: 1s;
 	transform: scale(1.2);
 
@@ -146,8 +148,9 @@ header > :first-child > :nth-child(2){
 	font-weight: bold;
 }
 #header-right > li:hover{
-	color: #ffffff;
-	cursor: pointer;
+	color: #ff0000;
+	cursor: url(./mouse2.png) 1 1, auto;
+
 	transition: 1s;
 	transform: scale(1.5);
 
@@ -186,7 +189,7 @@ header > :nth-child(2) > :first-child > :first-child{
 }
 #header-button:hover{
 	border: 1px solid transparent;
-
+	cursor: pointer;
 	background-color: rgb(67, 139, 139);
 	color: rgb(243, 238, 212);
 }
@@ -408,6 +411,7 @@ footer{
 	border: 1px solid transparent;
 	background-color: rgb(67, 139, 139);
 	color: rgb(243, 238, 212);
+	cursor: pointer;
 }
 
 footer > :nth-child(2){
